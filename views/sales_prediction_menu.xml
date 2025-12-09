@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Client Action for the Sales Prediction Dashboard -->
+    <record id="action_sales_prediction_dashboard" model="ir.actions.client">
+        <field name="name">Sales Prediction</field>
+        <field name="tag">bi_sales_prediction.dashboard</field>
+    </record>
+
+    <!-- Root Menu -->
+    <menuitem id="menu_sales_prediction_root"
+              name="Sales Prediction"
+              sequence="100"/>
+
+    <!-- Dashboard Menu Item -->
+    <menuitem id="menu_sales_prediction_dashboard"
+              name="Dashboard"
+              parent="menu_sales_prediction_root"
+              action="action_sales_prediction_dashboard"
+              sequence="10"/>
+</odoo>

@@ -1,0 +1,61 @@
+.o_bi_dashboard {
+    background-color: #f8f9fa;
+}
+
+.o_bi_dashboard .card {
+    border-radius: 8px;
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.o_bi_dashboard .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+.o_bi_dashboard .card-header {
+    border-bottom: 1px solid #eee;
+    font-weight: 600;
+}
+
+.o_bi_dashboard .table th {
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: #6c757d;
+}
+
+.o_bi_dashboard .table td {
+    vertical-align: middle;
+}
+
+.o_bi_dashboard .display-5 {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.o_bi_dashboard .border-4 {
+    border-width: 4px !important;
+}
+
+.o_bi_dashboard h2 {
+    font-weight: 700;
+}
+
+.o_bi_dashboard h3 {
+    font-weight: 600;
+}
+
+.o_bi_dashboard h6 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.o_bi_dashboard .fa {
+    opacity: 0.7;
+}
+
+.o_bi_dashboard .form-control-sm {
+    border-radius: 4px;
+}
